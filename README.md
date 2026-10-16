@@ -24,6 +24,6 @@ Run `python3 scripts/deploy-preview.py` with securely injected `CLOUDFLARE_API_T
 
 ## Published website
 
-https://southern-crescent-brown.haja-jah.workers.dev/
+https://southerncrescenthospitality.com/
 
 The deployment script publishes to Cloudflare. Pushing to GitHub saves the source; it does not automatically trigger deployment. Microsoft Forms and Power Automate integration is pending the public form link and account configuration; see `MICROSOFT-FORMS-SETUP.md`.

@@ -37,3 +37,9 @@ The form creates a draft locally. Visitors review it, then choose Open email app
 ## Reproducing QA
 
 The QA script is scripts/qa-finish.cjs. It uses Playwright and axe-core installed in temporary paths. Chromium is /usr/bin/chromium. Firefox/WebKit were installed under /tmp/southern-browsers. Verified Debian runtime dependencies were extracted under /tmp and supplied to WebKit’s bundled sys/lib search directories. Runtime data and screenshots are under /workspace/site-review. These temporary tools need reinstallation if not retained by the environment snapshot.
+
+## Primary-domain SEO update
+
+Re-ran the 11-page suite across Chromium, Firefox, and WebKit: 33 page/browser combinations, zero recorded errors and zero axe violations. Ran `node scripts/qa-seo.cjs`: unique metadata, primary canonicals, structured-data JSON, single main headings, canonical redirect behavior, marketing query preservation, missing-page noindex/status, HEAD, and unsupported-method handling passed.
+
+Verified all 11 deployed HTML pages match local source on https://southerncrescenthospitality.com/, plus robots.txt and the 11-URL XML sitemap. Live preview-domain and /index.html redirects return 308 to the primary domain, and a nonexistent route returns 404. A Googlebot user-agent request receives indexable corporate-catering HTML; actual Google crawling/indexing remains unconfirmed. www still redirects to the previous l.ink destination pending replacement of its conflicting DNS record. See SEO-AND-TRAFFIC.md for account setup and measurement limits.
