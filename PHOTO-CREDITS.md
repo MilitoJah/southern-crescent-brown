@@ -81,3 +81,10 @@ Originals remain in /workspace/charcuterie-upload. Source and license records re
 ## Updated vector logos (10.15 archive)
 
 The site now uses unchanged horizontal and stacked SVG artwork from Southern Crescent Logos 10.15.zip. Supplied seal and monogram vectors are retained; the seal serves as the favicon. The previous PNGs remain available for historical asset URLs.
+
+
+## Approved boxed catering photos — October 16, 2026
+
+- assets/boxed-lunch-selection.webp — user-supplied Box Photos.zip, 4 boxed lunch.jpg; homepage delivered-meals card and delivered-meals hero. No visible third-party branding observed.
+- assets/danishes-plain-liner.webp — edited from user-supplied Assorted danishes.jpg using image generation to replace all printed liner branding with plain parchment; approved menu breakfast replacement.
+- Other branded photos from the archive are excluded from this update.
