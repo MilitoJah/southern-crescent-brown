@@ -88,3 +88,8 @@ The site now uses unchanged horizontal and stacked SVG artwork from Southern Cre
 - assets/boxed-lunch-selection.webp — user-supplied Box Photos.zip, 4 boxed lunch.jpg; homepage delivered-meals card and delivered-meals hero. No visible third-party branding observed.
 - assets/danishes-plain-liner.webp — edited from user-supplied Assorted danishes.jpg using image generation to replace all printed liner branding with plain parchment; approved menu breakfast replacement.
 - Other branded photos from the archive are excluded from this update.
+
+
+## Full supplied collection review — October 16, 2026
+
+See PHOTO-PLACEMENTS.md for all 40 supplied versions. Newly used originals come from photo-review/assets/new-*.webp and are copied without altering food or branding. Only the previously approved danish photo uses an edited plain liner. Branded or uncertain packaging is excluded from customer-facing placements.
