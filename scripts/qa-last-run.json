@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "index",
+    "corporate-catering",
+    "meeting-catering",
+    "drop-off-catering",
+    "charcuterie-grazing",
+    "bar-and-beverage",
+    "event-planning",
+    "hospitality-professionals",
+    "catering-menus",
+    "careers",
+    "contact"
+  ],
+  "browserChecks": 33,
+  "engines": [
+    "chromium",
+    "firefox",
+    "webkit"
+  ],
+  "axeViolations": 0,
+  "errors": [],
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "liveVerified": [
+    "index.html",
+    "corporate-catering.html",
+    "meeting-catering.html",
+    "drop-off-catering.html",
+    "charcuterie-grazing.html",
+    "bar-and-beverage.html",
+    "event-planning.html",
+    "hospitality-professionals.html",
+    "catering-menus.html",
+    "careers.html",
+    "contact.html",
+    "style.css",
+    "finish.css",
+    "brand-fonts.css",
+    "app.js",
+    "sitemap.xml",
+    "robots.txt",
+    "assets/brand-font-0.ttf",
+    "assets/brand-font-4.ttf",
+    "assets/logo-primary.png",
+    "assets/logo-stacked.png",
+    "assets/charcuterie-long-board.webp"
+  ],
+  "directSubmission": false
+}

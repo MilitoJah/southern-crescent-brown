@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://southern-crescent-new-concept.haja-jah.workers.dev/sitemap.xml
