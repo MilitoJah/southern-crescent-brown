@@ -14,6 +14,10 @@ Box collection validation: all 33 gallery images and ten comparison groups loade
 
 ## Latest alternate crops
 
-The Bacon, Egg & Cheese English Muffin ZIP adds three alternate square versions: C01 danishes, C02 English muffins, and C03 crab-and-prawn sliders. The muffin photo is an exact byte duplicate of B03 and is not repeated. The review now contains 36 unique image files across three collections and 13 placement/crop comparisons. The separately displayed sandwich image is not present in the ZIP; its exact file remains pending.
+The Bacon, Egg & Cheese English Muffin ZIP adds three alternate square versions: C01 danishes, C02 English muffins, and C03 crab-and-prawn sliders. The muffin photo is an exact byte duplicate of B03 and is not repeated. The review now contains 36 unique image files across three collections and 13 placement/crop comparisons. The separately displayed sandwich image was later supplied in Southern Crescent Food.zip; see D04.
 
 Validation for this update: every displayed image loaded, all 13 comparisons and original gallery filters passed, five widths had no horizontal overflow, and Chromium reported zero JavaScript errors and zero axe violations.
+
+## Southern Crescent Food collection
+
+Added four new supplied image versions D01–D04 from Southern Crescent Food.zip. D04 is the requested sandwich image, featured at /#southern-food and /#food-d04. The review now holds 40 unique source versions across four collections. Earlier square versions are retained for comparison; no production photographs were replaced.

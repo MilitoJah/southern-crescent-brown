@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D01",
+    "file": "1.jpg",
+    "title": "Bacon, egg & cheese English muffins",
+    "note": "Breakfast-menu layout alternative. Compare the tighter B04 and the earlier square C02 before choosing a final website crop.",
+    "earlier": "box-04",
+    "width": 2700,
+    "height": 2700,
+    "asset": "assets/food-d01.webp"
+  },
+  {
+    "id": "D02",
+    "file": "2.jpg",
+    "title": "Assorted danishes",
+    "note": "Breakfast-menu and meeting-card alternative. Compare the tighter B02 and square C01; the white canvas gives more layout space.",
+    "earlier": "box-02",
+    "width": 2700,
+    "height": 2700,
+    "asset": "assets/food-d02.webp"
+  },
+  {
+    "id": "D03",
+    "file": "3.jpg",
+    "title": "Mini crab & prawn sliders",
+    "note": "A seafood-slider menu image. Compare B10 and C03, and confirm the crab-and-prawn name before changing the live menu.",
+    "earlier": "box-10",
+    "width": 2700,
+    "height": 2700,
+    "asset": "assets/food-d03.webp"
+  },
+  {
+    "id": "D04",
+    "file": "4.jpg",
+    "title": "Sandwich assortment",
+    "note": "The supplied sandwich version requested for this review. A candidate for delivered-meal or corporate-lunch supporting imagery; the final website placement would need a tighter crop to keep the food prominent.",
+    "earlier": "all-photos",
+    "width": 2700,
+    "height": 2700,
+    "asset": "assets/food-d04.webp"
+  }
+]

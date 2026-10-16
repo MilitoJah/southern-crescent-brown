@@ -4,3 +4,5 @@
 .box-section{background:#efede9;border-top:1px solid var(--line)}.box-intro{max-width:820px}.box-section .notice{background:var(--ivory)}.box-section .photo-card{background:var(--ivory)}.box-gallery-heading{margin:55px 0 30px}.box-gallery-heading h3{font-size:31px}.box-gallery-heading>p:last-child{font-size:14px}.box-comparison .number{font-size:11px}.status.limited{background:#e4dada;color:#543f3f}.box-photo-card .filename{font-size:12px}.box-photo-card h3{overflow-wrap:normal}
 
 .latest-section{border-top:1px solid var(--line)}.latest-section .comparison-images .image-link{background:#eae6e0}.latest-section .dimensions{font-size:12px;color:var(--muted)}.latest-section .closing-note{margin-bottom:0}
+
+.food-section{background:#efede9;border-top:1px solid var(--line)}.food-section .photo-card{background:var(--ivory)}.featured-food{max-width:900px;margin:35px 0 45px}.featured-food .image-link{aspect-ratio:1/1;background:#fff}.featured-food h3{font-size:28px}.food-other-heading{font-size:29px;margin-bottom:28px}.food-photo-card .filename{font-size:12px}.food-photo-card .dimensions{font-size:12px;color:var(--muted)}
