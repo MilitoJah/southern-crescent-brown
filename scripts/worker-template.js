@@ -25,7 +25,7 @@ const SERVICES = {
   'other': 'A combination / something else'
 };
 const LIMITS = {name: 120, email: 254, phone: 40, company: 160, address: 240, postal: 20, city: 100, state: 80, location: 240, budget: 100, referral: 160, details: 4000};
-const REQUIRED = ['name', 'email', 'phone', 'address', 'postal', 'city', 'state', 'date', 'location', 'guests', 'budget', 'referral'];
+const REQUIRED = ['name', 'email', 'company', 'date', 'location', 'guests', 'service'];
 
 function json(body, status) {
   return new Response(JSON.stringify(body), {status, headers: {'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff'}});
@@ -60,7 +60,15 @@ async function handleInquiry(request, url) {
   const guests = Number(fields.guests);
   if (!Number.isInteger(guests) || guests < 1 || guests > 100000) return json({ok: false, error: 'guests'}, 400);
   fields.guests = String(guests);
-  fields.service = SERVICES[fields.service] || '';
+  if (!Object.hasOwn(SERVICES, fields.service)) return json({ok: false, error: 'service'}, 400);
+  // Retain compatibility with the existing Microsoft Form's required questions.
+  // These are explicit non-answers, not invented customer contact/billing details.
+  for (const key of ['address', 'postal', 'city', 'state', 'referral']) {
+    fields[key] = 'Not collected at initial quote stage';
+  }
+  if (!fields.phone) fields.phone = 'Not provided; reply by email';
+  if (!fields.budget) fields.budget = 'To discuss';
+  fields.service = SERVICES[fields.service];
   fields.start = to12Hour(fields.start);
   fields.end = to12Hour(fields.end);
   fields.budget = formatBudget(fields.budget);

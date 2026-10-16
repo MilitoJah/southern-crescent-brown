@@ -51,5 +51,11 @@
     "assets/logo-stacked.png",
     "assets/charcuterie-long-board.webp"
   ],
-  "directSubmission": false
+  "inquiry": {
+    "requiredFields": 7,
+    "browserApi": "mocked",
+    "microsoftUpstream": "mocked",
+    "externalEmailSent": false,
+    "liveSubmissionDeliveryVerified": false
+  }
 }

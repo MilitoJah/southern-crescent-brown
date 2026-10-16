@@ -43,7 +43,7 @@ if (form) {
   const date = document.querySelector('#date');
   const now = new Date();
   date.min = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
-  const labels = {name:'Name',email:'Email',phone:'Phone',company:'Company name',address:'Address',postal:'Postal code',city:'City',state:'State',service:'Service of interest',date:'Event date',location:'Event location',start:'Start time',end:'End time',guests:'Estimated guest count',budget:'Estimated budget',referral:'Referred by',details:'Special details'};
+  const labels = {name:'Name',email:'Email',phone:'Phone',company:'Company / organization',service:'Service of interest',date:'Event date',location:'Event location',start:'Start time',end:'End time',guests:'Estimated guest count',budget:'Estimated budget',details:'Special details'};
   function clearError(input) {
     input.removeAttribute('aria-invalid');
     const errorId = `${input.name}-error`;
@@ -56,14 +56,14 @@ if (form) {
     const value = input.value.trim();
     if (input.required && !value) return `Enter ${labels[input.name].toLowerCase()}.`;
     if (input.name === 'email' && input.validity.typeMismatch) return 'Enter a valid email address.';
-    if (input.name === 'phone' && value.replace(/\D/g,'').length < 7) return 'Enter a phone number with at least 7 digits.';
+    if (input.name === 'phone' && value && value.replace(/\D/g,'').length < 7) return 'Enter a phone number with at least 7 digits.';
     if (input.name === 'date' && input.validity.rangeUnderflow) return 'Choose today or a future event date.';
     if (!input.validity.valid) return input.name === 'guests' ? 'Enter a whole guest count between 1 and 100,000.' : `Check ${labels[input.name].toLowerCase()}.`;
     return '';
   }
   form.addEventListener('input', event => {
     if (event.target.matches('input,select,textarea') && event.target.getAttribute('aria-invalid') === 'true' && !message(event.target)) clearError(event.target);
-    if (review && !review.hidden) { review.hidden = true; status.textContent = 'Your details changed. Press Send inquiry to try again.'; }
+    if (review && !review.hidden) { review.hidden = true; status.textContent = 'Your details changed. Press Request my quote to try again.'; }
   });
   const submitButton = form.querySelector('button[type="submit"]');
   const thanks = document.querySelector('#inquiry-sent');
@@ -87,6 +87,8 @@ if (form) {
       const list = summary.querySelector('ul'); list.replaceChildren();
       summary.hidden = errors.length === 0;
       errors.forEach(({input,text}) => {
+        const disclosure = input.closest('details');
+        if (disclosure) disclosure.open = true;
         input.setAttribute('aria-invalid','true');
         const note = document.createElement('p'); note.id = `${input.name}-error`; note.className = 'field-error'; note.textContent = text; input.after(note);
         input.setAttribute('aria-describedby', [input.getAttribute('aria-describedby'),note.id].filter(Boolean).join(' '));

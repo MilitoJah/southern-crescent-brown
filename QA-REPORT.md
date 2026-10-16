@@ -47,3 +47,9 @@ Verified all 11 deployed HTML pages match local source on https://southerncresce
 ## Bing inspection follow-up
 
 Bing Webmaster Tools screenshot confirmed the homepage indexed successfully, with a title-length warning and two image-alt notices. Shortened the homepage and other titles exceeding 65 characters; kept Open Graph and WebPage structured-data names aligned. Added descriptive alternatives to the header/footer logo images, retaining existing accessible home-link labels. All 11 main-page HTML images now have nonempty alt attributes. Re-ran SEO checks and 33 page/browser combinations: zero recorded errors and zero axe violations. Published and byte-verified the live homepage. Bing must fetch the new version before its stored inspection notices update.
+
+## Buyer confidence and shorter inquiry
+
+Validated the two hero actions, menu-format links, seven required inquiry essentials, service preselection, omitted phone acceptance, invalid optional phone reveal/focus, API success, API/upstream failure and offline draft fallback, copy/download, and stale-draft reset. All browser API responses and Microsoft upstream calls in these tests are mocked; no inquiries or emails were sent. The server adapter retains Microsoft question IDs and uses explicit non-answers for removed fields. Actual downstream Forms acceptance and Power Automate notification delivery have not been re-tested with a real submission.
+
+Re-ran 11 pages across Chromium, Firefox, and WebKit at 320/390/768/1024/1440 widths: 33 page/browser combinations, zero errors, and zero axe violations, including invalid, fallback, and success form states. SEO/canonical/router checks and mocked inquiry API checks passed. Menu dishes, prices, binding policies, original-work photography identification, and client evidence remain pending owner approval; no unapproved items were published.

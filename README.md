@@ -14,6 +14,8 @@ Use the existing checkout. Cloud tasks are already isolated; do not create a wor
 
 `contact.html` validates the inquiry in the browser, then posts it to `/api/inquiry`. The Worker (`scripts/worker-template.js`) checks the fields, drops submissions that fill the hidden `website` field, formats times as 12 hour AM/PM and numeric budgets with a dollar sign, and submits the answers to the Microsoft Form "Southern Crescent Hospitality — Event Inquiry". The Power Automate flow "Southern Crescent Event Inquiry Alerts" then emails hello@southerncrescenthospitality.com and sends the client a thank you. If sending fails, the page falls back to the email draft (open in email app, copy, or download).
 
+The initial inquiry has seven required essentials, with phone, budget, timing, and special requests optional. Billing address and referral source are not collected. The adapter provides explicit non-answers for legacy required Microsoft questions so the existing question IDs and automation can remain in place. See `BUYER-CONTENT-REVIEW.md` for the mapping and outstanding menu, policy, and evidence approvals.
+
 The Worker maps site fields to Microsoft Forms question IDs in `QUESTION_IDS`. If a question in the Microsoft Form is deleted and recreated, update its ID there and in the flow's email body.
 
 ## QA
@@ -32,4 +34,4 @@ Pushing to `main` saves the source and triggers the deploy workflow.
 
 ## Google Analytics
 
-Google Analytics 4 uses measurement ID `G-N8VB1X2NBM` on the 11 main website pages. Archived concepts and owner setup pages are excluded. The asynchronous Google tag records standard page activity; no custom inquiry-submission conversion is configured. Google signals and advertising personalization signals are disabled in the site configuration. Keep enhanced-measurement Form interactions disabled in the Analytics web stream while the inquiry form prepares an email draft. Verify receipt in Analytics Realtime after opening the public website; a loaded tag alone does not prove data appeared in the property.
+Google Analytics 4 uses measurement ID `G-N8VB1X2NBM` on the 11 main website pages. Archived concepts and owner setup pages are excluded. The asynchronous Google tag records standard page activity; no custom inquiry-submission conversion is configured. Google signals and advertising personalization signals are disabled in the site configuration. Keep enhanced-measurement Form interactions disabled in the Analytics web stream; no received-inquiry conversion event is currently configured. Verify receipt in Analytics Realtime after opening the public website; a loaded tag alone does not prove data appeared in the property.
