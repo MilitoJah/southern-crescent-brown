@@ -27,3 +27,7 @@ Run `python3 scripts/deploy-preview.py` with securely injected `CLOUDFLARE_API_T
 https://southerncrescenthospitality.com/
 
 The deployment script publishes to Cloudflare. Pushing to GitHub saves the source; it does not automatically trigger deployment. Microsoft Forms and Power Automate integration is pending the public form link and account configuration; see `MICROSOFT-FORMS-SETUP.md`.
+
+## Google Analytics
+
+Google Analytics 4 uses measurement ID `G-N8VB1X2NBM` on the 11 main website pages. Archived concepts and owner setup pages are excluded. The asynchronous Google tag records standard page activity; no custom inquiry-submission conversion is configured. Google signals and advertising personalization signals are disabled in the site configuration. Keep enhanced-measurement Form interactions disabled in the Analytics web stream while the inquiry form prepares an email draft. Verify receipt in Analytics Realtime after opening the public website; a loaded tag alone does not prove data appeared in the property.
