@@ -20,10 +20,10 @@ Use the existing checkout. Cloud tasks are already isolated; do not create a wor
 
 ## Deploy
 
-Run `python3 scripts/deploy-preview.py` with securely injected `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. It updates only the southern-crescent-new-concept Worker. Static files use a Cloudflare-supported binary data module, preserving each asset byte-for-byte. It does not touch the existing green or olive Workers.
+Run `python3 scripts/deploy-preview.py` with securely injected `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. It updates only the southern-crescent-brown Worker. Static files use a Cloudflare-supported binary data module, preserving each asset byte-for-byte. It does not touch the existing green or olive Workers.
 
 ## Published website
 
-https://southern-crescent-new-concept.haja-jah.workers.dev/
+https://southern-crescent-brown.haja-jah.workers.dev/
 
 The deployment script publishes to Cloudflare. Pushing to GitHub saves the source; it does not automatically trigger deployment. Microsoft Forms and Power Automate integration is pending the public form link and account configuration; see `MICROSOFT-FORMS-SETUP.md`.

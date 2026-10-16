@@ -32,7 +32,7 @@ for route,file in files.items():
 archive=b''.join(chunks)
 code='import archive from "./assets.bin";const files='+json.dumps(manifest,separators=(',',':'))+';export default {async fetch(request){const path=new URL(request.url).pathname;const found=files[path==="/"?"/index.html":path];const file=found||files["/404.html"];if(!file)return new Response("Not found",{status:404});return new Response(new Uint8Array(archive,file.offset,file.length),{status:found?200:404,headers:{"Content-Type":file.type,"X-Content-Type-Options":"nosniff","Cache-Control":"public, max-age=60"}});}};'
 
-name='southern-crescent-new-concept'
+name='southern-crescent-brown'
 base='https://api.cloudflare.com/client/v4/accounts/'+os.environ['CLOUDFLARE_ACCOUNT_ID']+'/workers/scripts/'+name
 boundary='southern'+uuid.uuid4().hex
 parts=[]
@@ -57,4 +57,4 @@ def call(url,method,data,extra={}):
  if not d.get('success'):raise SystemExit(1)
 call(base,'PUT',payload,{'Content-Type':'multipart/form-data; boundary='+boundary})
 call(base+'/subdomain','POST',json.dumps({'enabled':True,'previews_enabled':True}).encode(),{'Content-Type':'application/json'})
-print('URL: https://southern-crescent-new-concept.haja-jah.workers.dev')
+print('URL: https://southern-crescent-brown.haja-jah.workers.dev')
