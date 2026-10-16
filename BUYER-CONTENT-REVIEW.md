@@ -1,33 +1,24 @@
-# Buyer confidence: owner content review
+# Buyer confidence: content status
 
-## Published structure
+## Approved menu content
 
-The homepage keeps the existing headline and leads with Request a catering quote, with Explore our services secondary. The initial form collects seven essentials: name, email, company/organization, event date, location/city, guest count, and service. Phone, budget, timing, and special requests are optional. Billing/address and referral fields are not collected at this stage.
+The owner supplied dishes for breakfast, sandwiches/wraps, sliders and small bites, corporate lunches, and lunch/dinner buffets. These are now published as sample selections on `catering-menus.html`, with category links and service-specific quote links. They are not represented as fixed packages, certified dietary menus, or priced combinations. Ingredients or inclusions beyond the supplied descriptions have not been invented.
 
-The menu page separates breakfast, boxed lunches, corporate lunches, and grazing, with service-specific inquiry links. Planning FAQs explain what to discuss and confirm; they do not publish unapproved ordering deadlines, charges, payment terms, or accommodation guarantees.
+## Published operating details
 
-## Suggested sample menus for owner review — not published or confirmed available
+`catering-details.html` is the shared source for ordering lead times, the 10-person delivery minimum, the 20% rush fee, $75–$125 setup, metro Atlanta service and separately quoted outside locations, arrival/access requirements, setup scope, equipment collection/replacement, shared-kitchen allergen notice, dietary requests, payment and cancellation terms.
 
-These are proposals to make review concrete, not descriptions of current inventory or approved offerings. Replace or approve the dishes before they appear publicly. Prices, minimums, portions, and substitutions still need confirmation.
+The website directs clients to marked food-handling/discard instructions instead of publishing a universal four-hour food-safety rule. No medical or allergen-free claims are made.
 
-- Breakfast: assorted pastries, seasonal fruit, and coffee service.
-- Boxed lunch: sandwich or wrap, a side, and dessert; specify the actual protein, vegetarian selection, packaging, and beverage inclusion.
-- Corporate lunch: a sandwich-platter and salad format, or a hot buffet; specify actual dishes and sides, plus what delivery/setup includes.
-- Grazing: a charcuterie and cheese presentation, or a dessert grazing selection; specify actual items, portion guidance, and whether it is a snack or meal.
+## Two policies awaiting clarification
 
-## Policies needed
+1. Delivery: the owner supplied both free delivery within 15 miles and a $35 drop-off fee plus $1.50/mile beyond the radius. The intended relationship between base fee, free radius, and mileage is unclear. The site says delivery pricing is confirmed in the proposal until clarified.
+2. Final headcount: a three-business-day deadline conflicts with accepting under-50 drop-off orders two business days ahead. The site says the proposal confirms the deadline; once finalized, the count can increase up to 10% but cannot decrease. A short-notice dietary request is confirmed when ordering; no exception to the standard cutoff is promised.
 
-- Actual ordering lead time, order minimums, final-headcount deadline, and cancellation terms if published.
-- Actual service cities or delivery boundaries, any delivery fees, setup scope, and staffing availability.
-- Dietary-request process and which requests can be accommodated; do not imply an allergen-free preparation environment without substantiation.
-- Actual deposit, balance due, payment methods, invoice/PO arrangements, and any approved starting prices.
+## Evidence still needed
 
-## Evidence needed
+The owner has photos for the initial small-bites/pastry selections but has not attached or identified them in this update. Confirm which supplied files depict Southern Crescent's own work before presenting them as client evidence. Client quotes, names/logos, and event examples also require approved text and permission. Existing illustrative photography remains; no stock or inspiration photo is relabelled as a Southern Crescent event.
 
-Identify which uploaded image files depict Southern Crescent's own work. A supplied photo is not automatically proof of a Southern Crescent client event. Provide permission-approved quotes and the exact attribution approved for display. For a brief event example, confirm occasion, approximate guest count, food/service provided, and what details may be public. Keep client names and logos private unless permission has been granted.
+## Initial inquiry
 
-## Form compatibility
-
-The existing Microsoft Form and automation question IDs are retained. The adapter supplies explicit non-answers for the removed address/referral questions (Not collected at initial quote stage), a reply-by-email note when phone is omitted, and To discuss when budget is omitted. It does not invent contact or billing details. Question IDs must remain stable until a coordinated change to the form and automation is made.
-
-The changed form and adapter are exercised using mocked API/upstream responses. These tests do not send real inquiries, verify Microsoft acceptance of a new response, or prove notification delivery. Confirm the first genuine short-form submission in Forms and Power Automate; if a controlled live test is desired, authorize the test details and notification recipients first.
+The seven essentials and optional details remain. Existing Microsoft question IDs/automation mappings are preserved. Removed billing/referral questions receive explicit non-answers in the adapter. Automated tests mock Microsoft responses and do not verify live notification delivery.

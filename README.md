@@ -34,4 +34,8 @@ Pushing to `main` saves the source and triggers the deploy workflow.
 
 ## Google Analytics
 
-Google Analytics 4 uses measurement ID `G-N8VB1X2NBM` on the 11 main website pages. Archived concepts and owner setup pages are excluded. The asynchronous Google tag records standard page activity; no custom inquiry-submission conversion is configured. Google signals and advertising personalization signals are disabled in the site configuration. Keep enhanced-measurement Form interactions disabled in the Analytics web stream; no received-inquiry conversion event is currently configured. Verify receipt in Analytics Realtime after opening the public website; a loaded tag alone does not prove data appeared in the property.
+Google Analytics 4 uses measurement ID `G-N8VB1X2NBM` on the 12 main website pages. Archived concepts and owner setup pages are excluded. The asynchronous Google tag records standard page activity; no custom inquiry-submission conversion is configured. Google signals and advertising personalization signals are disabled in the site configuration. Keep enhanced-measurement Form interactions disabled in the Analytics web stream; no received-inquiry conversion event is currently configured. Verify receipt in Analytics Realtime after opening the public website; a loaded tag alone does not prove data appeared in the property.
+
+## Menu and ordering content
+
+Owner-supplied sample selections are published on `catering-menus.html`; native details panels open for direct category links. `catering-details.html` centralizes approved ordering, setup, dietary, payment, and cancellation information. Delivery pricing and the short-lead final-headcount deadline remain pending clarification; see `BUYER-CONTENT-REVIEW.md`. The evidence/photo step remains pending source identification and approval.

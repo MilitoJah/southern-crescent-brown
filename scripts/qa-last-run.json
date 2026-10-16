@@ -9,10 +9,11 @@
     "event-planning",
     "hospitality-professionals",
     "catering-menus",
+    "catering-details",
     "careers",
     "contact"
   ],
-  "browserChecks": 33,
+  "browserChecks": 36,
   "engines": [
     "chromium",
     "firefox",
@@ -37,19 +38,12 @@
     "event-planning.html",
     "hospitality-professionals.html",
     "catering-menus.html",
+    "catering-details.html",
     "careers.html",
     "contact.html",
-    "style.css",
-    "finish.css",
-    "brand-fonts.css",
     "app.js",
-    "sitemap.xml",
-    "robots.txt",
-    "assets/brand-font-0.ttf",
-    "assets/brand-font-4.ttf",
-    "assets/logo-primary.png",
-    "assets/logo-stacked.png",
-    "assets/charcuterie-long-board.webp"
+    "finish.css",
+    "sitemap.xml"
   ],
   "inquiry": {
     "requiredFields": 7,
@@ -57,5 +51,10 @@
     "microsoftUpstream": "mocked",
     "externalEmailSent": false,
     "liveSubmissionDeliveryVerified": false
+  },
+  "menus": {
+    "categoryDeepLinks": "passed in Chromium, Firefox, WebKit",
+    "keyboardDisclosures": "passed",
+    "policyNavigation": "passed"
   }
 }

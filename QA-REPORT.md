@@ -53,3 +53,9 @@ Bing Webmaster Tools screenshot confirmed the homepage indexed successfully, wit
 Validated the two hero actions, menu-format links, seven required inquiry essentials, service preselection, omitted phone acceptance, invalid optional phone reveal/focus, API success, API/upstream failure and offline draft fallback, copy/download, and stale-draft reset. All browser API responses and Microsoft upstream calls in these tests are mocked; no inquiries or emails were sent. The server adapter retains Microsoft question IDs and uses explicit non-answers for removed fields. Actual downstream Forms acceptance and Power Automate notification delivery have not been re-tested with a real submission.
 
 Re-ran 11 pages across Chromium, Firefox, and WebKit at 320/390/768/1024/1440 widths: 33 page/browser combinations, zero errors, and zero axe violations, including invalid, fallback, and success form states. SEO/canonical/router checks and mocked inquiry API checks passed. Menu dishes, prices, binding policies, original-work photography identification, and client evidence remain pending owner approval; no unapproved items were published.
+
+## Owner-supplied menus and operating details
+
+Added sample menu categories and a dedicated ordering/delivery page. The 12-page browser run completed 36 page/browser combinations across Chromium, Firefox, and WebKit at five widths, with zero errors and zero axe violations. Separate mobile interaction checks cover category deep links, keyboard toggling, service-to-menu navigation, the lead-time table, policy navigation, and the new footer link. No live form submissions or notification emails were sent.
+
+SEO checks cover 12 unique page titles/descriptions, canonical URLs and structured data. New pages retain the configured GA tag. Ambiguous delivery pricing and final-headcount cutoffs remain unpublished; original-event photography and client proof are still pending.

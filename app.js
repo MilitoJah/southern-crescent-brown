@@ -131,3 +131,14 @@ if (form) {
     setTimeout(() => URL.revokeObjectURL(url),1000); status.textContent = 'Draft downloaded. It has not been sent.';
   });
 }
+
+function revealMenuCategory() {
+  let target;
+  try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch { return; }
+  if (target?.matches('details.sample-menu')) {
+    target.open = true;
+    requestAnimationFrame(() => target.scrollIntoView({block: 'start'}));
+  }
+}
+window.addEventListener('hashchange', revealMenuCategory);
+revealMenuCategory();

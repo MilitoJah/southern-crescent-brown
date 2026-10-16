@@ -9,7 +9,7 @@ for path in ['event-photo-options.html','core-services-concepts.html','concepts.
  files['/'+path]={'body':(root/path).read_text(),'type':'text/html; charset=utf-8'}
 for path in ['corporate-people-options.html','corporate-photo-p1.html','corporate-photo-p2.html','corporate-photo-p3.html','corporate-photo-p4.html']:
  files['/'+path]={'body':(root/path).read_text(),'type':'text/html; charset=utf-8'}
-for filename,mime in [('charcuterie-grazing.html','text/html; charset=utf-8'),('event-planning.html','text/html; charset=utf-8'),('404.html','text/html; charset=utf-8'),('finish.css','text/css; charset=utf-8'),('brand-fonts.css','text/css; charset=utf-8'),('robots.txt','text/plain; charset=utf-8'),('sitemap.xml','application/xml; charset=utf-8')]:
+for filename,mime in [('catering-details.html','text/html; charset=utf-8'),('charcuterie-grazing.html','text/html; charset=utf-8'),('event-planning.html','text/html; charset=utf-8'),('404.html','text/html; charset=utf-8'),('finish.css','text/css; charset=utf-8'),('brand-fonts.css','text/css; charset=utf-8'),('robots.txt','text/plain; charset=utf-8'),('sitemap.xml','application/xml; charset=utf-8')]:
  files['/'+filename]={'body':(root/filename).read_text(),'type':mime}
 for font in (root/'assets').glob('brand-font-*.ttf'):
  files['/assets/'+font.name]={'body':base64.b64encode(font.read_bytes()).decode(),'type':'font/ttf','base64':True}
