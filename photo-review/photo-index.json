@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "file": "Assortment sandwiches.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-01.webp",
+    "status": "leave",
+    "placement": "Leave out",
+    "note": "The FEEDWELL branding is prominent. Keep Southern Crescent\u2019s own presentation consistent."
+  },
+  {
+    "number": 2,
+    "file": "Bartender.png",
+    "width": 1680,
+    "height": 1680,
+    "asset": "assets/new-02.webp",
+    "status": "alternative",
+    "placement": "Beverage hero alternative",
+    "note": "An active service scene. An alternative to the cocktail close-up; not an additional photo of Southern Crescent staff."
+  },
+  {
+    "number": 3,
+    "file": "Breakfast Sliders.jpg",
+    "width": 1100,
+    "height": 1100,
+    "asset": "assets/new-03.webp",
+    "status": "alternative",
+    "placement": "Slider / meeting menu",
+    "note": "A clean slider presentation for a menu detail. Confirm the pictured selection matches the dish description."
+  },
+  {
+    "number": 4,
+    "file": "Charcuterie.jpeg",
+    "width": 324,
+    "height": 324,
+    "asset": "assets/new-04.webp",
+    "status": "leave",
+    "placement": "Too small for a prominent placement",
+    "note": "324 \u00d7 324 px. Avoid a hero or large service card; a larger original would be needed."
+  },
+  {
+    "number": 5,
+    "file": "Cheese & Charcuterie Platter.jpg",
+    "width": 1024,
+    "height": 794,
+    "asset": "assets/new-05.webp",
+    "status": "recommended",
+    "placement": "Charcuterie supporting image",
+    "note": "A compact cheese and charcuterie box. Add alongside the current grazing-station lead photo."
+  },
+  {
+    "number": 6,
+    "file": "Cocktail Spinach & Ricotta Filo Pastry Platter.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-06.webp",
+    "status": "alternative",
+    "placement": "Reception menu detail",
+    "note": "A tidy pastry platter. Use if this item is part of the approved offering; it is not yet listed in the supplied menu."
+  },
+  {
+    "number": 7,
+    "file": "Croissant Platter.jpg",
+    "width": 1887,
+    "height": 1887,
+    "asset": "assets/new-07.webp",
+    "status": "recommended",
+    "placement": "Homepage meeting-catering card",
+    "note": "A clear breakfast presentation and a high-resolution source. Replaces the current fruit-and-pastry close-up."
+  },
+  {
+    "number": 8,
+    "file": "Deluxe Breakfast Platter.jpg",
+    "width": 1100,
+    "height": 1100,
+    "asset": "assets/new-08.webp",
+    "status": "alternative",
+    "placement": "Breakfast menu detail",
+    "note": "Shows individual toppings and a breakfast format. Better as a supporting image than a large banner."
+  },
+  {
+    "number": 9,
+    "file": "Grazing Platter.jpg",
+    "width": 1024,
+    "height": 801,
+    "asset": "assets/new-09.webp",
+    "status": "recommended",
+    "placement": "Grazing supporting image",
+    "note": "An alternative compact board presentation. Use a separate location from the cheese-and-charcuterie box to avoid repetition."
+  },
+  {
+    "number": 10,
+    "file": "Hot Breakfast.jpeg",
+    "width": 736,
+    "height": 1308,
+    "asset": "assets/new-10.webp",
+    "status": "leave",
+    "placement": "Keep as a backup",
+    "note": "Tall, busy buffet composition. Less consistent with the clean platter series and awkward for wide crops."
+  },
+  {
+    "number": 11,
+    "file": "Italian Antipasto Platter.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-11.webp",
+    "status": "alternative",
+    "placement": "Antipasto menu detail",
+    "note": "A useful supporting option for grazing or shared meals, if this selection is offered."
+  },
+  {
+    "number": 12,
+    "file": "Lunch..jpeg",
+    "width": 736,
+    "height": 491,
+    "asset": "assets/new-12.webp",
+    "status": "leave",
+    "placement": "Keep as a backup",
+    "note": "A warm event spread, but busy and lower-resolution. The current hero and event images provide clearer context."
+  },
+  {
+    "number": 13,
+    "file": "Lunch.jpeg",
+    "width": 720,
+    "height": 720,
+    "asset": "assets/new-13.webp",
+    "status": "leave",
+    "placement": "Keep as a backup",
+    "note": "Shows an abundant spread, but the lighting and crowded composition are less consistent with the platter series."
+  },
+  {
+    "number": 14,
+    "file": "Mediterranean Chicken Salad Platter.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-14.webp",
+    "status": "recommended",
+    "placement": "Delivered catering supporting image",
+    "note": "A salad option adds variety alongside sandwiches and wraps. Confirm the pictured dish is offered before naming it on the website."
+  },
+  {
+    "number": 15,
+    "file": "Pancake Platter.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-15.webp",
+    "status": "recommended",
+    "placement": "Menus breakfast photo",
+    "note": "Adds a recognizable breakfast format without repeating the croissant photo on the homepage."
+  },
+  {
+    "number": 16,
+    "file": "Personal Sandwich.jpg",
+    "width": 1887,
+    "height": 1887,
+    "asset": "assets/new-16.webp",
+    "status": "recommended",
+    "placement": "Delivered catering lead photo",
+    "note": "The strongest replacement: an individual sandwich meal makes the boxed-meal offer easy to understand."
+  },
+  {
+    "number": 17,
+    "file": "Pomelo_Cocktail.jpeg",
+    "width": 2667,
+    "height": 2667,
+    "asset": "assets/new-17.webp",
+    "status": "recommended",
+    "placement": "Beverage lead photo",
+    "note": "A detailed service moment with a strong source resolution. Keep the dry-hire service wording and nonalcoholic context elsewhere."
+  },
+  {
+    "number": 18,
+    "file": "Sandwiches.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-18.webp",
+    "status": "recommended",
+    "placement": "Homepage delivered-meals card",
+    "note": "A clean sandwich platter that immediately reads as office catering. Best in a card-sized placement."
+  },
+  {
+    "number": 19,
+    "file": "Seasonal Fruit Platter.jpeg",
+    "width": 1100,
+    "height": 1100,
+    "asset": "assets/new-19.webp",
+    "status": "alternative",
+    "placement": "Breakfast / meeting supporting image",
+    "note": "The stronger-resolution fruit-only option. Useful alongside pastries; avoid duplicating the similar fruit photo."
+  },
+  {
+    "number": 20,
+    "file": "Seasonal Fruit Platter.png",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-20.webp",
+    "status": "alternative",
+    "placement": "Fruit-platter alternative",
+    "note": "A closer fruit composition for a small card. Choose this or the other fruit photo rather than using both together."
+  },
+  {
+    "number": 21,
+    "file": "Wraps Platter.jpg",
+    "width": 768,
+    "height": 566,
+    "asset": "assets/new-21.webp",
+    "status": "recommended",
+    "placement": "Delivered catering supporting image",
+    "note": "Adds wraps to the delivered-meals story and replaces another repeated sandwich image."
+  }
+]

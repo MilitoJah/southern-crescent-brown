@@ -1,0 +1,1 @@
+const filter=document.getElementById('photo-filter');const cards=[...document.querySelectorAll('.photo-card')];filter.addEventListener('change',()=>{let count=0;for(const card of cards){card.hidden=filter.value!=='all'&&card.dataset.status!==filter.value;if(!card.hidden)count++;}document.getElementById('photo-count').textContent=count+' photo'+(count===1?'':'s');});
