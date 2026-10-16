@@ -63,10 +63,23 @@ if (form) {
   }
   form.addEventListener('input', event => {
     if (event.target.matches('input,select,textarea') && event.target.getAttribute('aria-invalid') === 'true' && !message(event.target)) clearError(event.target);
-    if (review && !review.hidden) { review.hidden = true; status.textContent = 'Your details changed. Review the inquiry again to update the draft.'; }
+    if (review && !review.hidden) { review.hidden = true; status.textContent = 'Your details changed. Press Send inquiry to try again.'; }
   });
-  form.addEventListener('submit', event => {
+  const submitButton = form.querySelector('button[type="submit"]');
+  const thanks = document.querySelector('#inquiry-sent');
+  function buildDraft(data, selected) {
+    const lines = Object.entries(labels).map(([key,label]) => {
+      let value = String(data.get(key) || '').trim();
+      if (key === 'service' && value) value = selected.textContent;
+      return `${label}: ${value || 'Not provided'}`;
+    });
+    draft.value = `Southern Crescent Hospitality — Event Inquiry\n\n${lines.join('\n')}\n\nPlease let me know the available options and next steps.\n`;
+    const subject = `Event inquiry — ${data.get('date')}`;
+    document.querySelector('#open-email-draft').href = `mailto:hello@southerncrescenthospitality.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(draft.value)}`;
+  }
+  form.addEventListener('submit', async event => {
     event.preventDefault();
+    if (submitButton?.disabled) return;
     const inputs = [...form.querySelectorAll('input,select,textarea')].filter(input => !input.readOnly);
     inputs.forEach(clearError);
     const errors = inputs.map(input => ({input,text:message(input)})).filter(error => error.text);
@@ -84,15 +97,27 @@ if (form) {
     if (errors.length) { review.hidden = true; status.textContent = ''; summary?.focus(); return; }
     const data = new FormData(form);
     const selected = service?.selectedOptions[0];
-    const lines = Object.entries(labels).map(([key,label]) => {
-      let value = String(data.get(key) || '').trim();
-      if (key === 'service' && value) value = selected.textContent;
-      return `${label}: ${value || 'Not provided'}`;
-    });
-    draft.value = `Southern Crescent Hospitality — Event Inquiry\n\n${lines.join('\n')}\n\nPlease let me know the available options and next steps.\n`;
-    const subject = `Event inquiry — ${data.get('date')}`;
-    document.querySelector('#open-email-draft').href = `mailto:hello@southerncrescenthospitality.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(draft.value)}`;
-    review.hidden = false; status.textContent = 'Your draft is ready to review. No message has been sent.'; review.focus();
+    review.hidden = true;
+    submitButton.disabled = true;
+    status.textContent = 'Sending your inquiry…';
+    let sent = false;
+    try {
+      const response = await fetch('/api/inquiry', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(Object.fromEntries(data))});
+      const result = await response.json().catch(() => ({}));
+      sent = response.ok && result.ok === true;
+    } catch { sent = false; }
+    submitButton.disabled = false;
+    if (sent) {
+      form.reset();
+      form.hidden = true;
+      if (thanks) { thanks.hidden = false; thanks.focus(); }
+      status.textContent = '';
+      return;
+    }
+    buildDraft(data, selected);
+    review.hidden = false;
+    status.textContent = 'We could not send your inquiry automatically. Your details are below, ready to email to us.';
+    review.focus();
   });
   document.querySelector('#copy-inquiry')?.addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(draft.value); status.textContent = 'Inquiry copied. Paste it into an email to hello@southerncrescenthospitality.com.'; }

@@ -10,9 +10,11 @@ Use the existing checkout. Cloud tasks are already isolated; do not create a wor
 
 `brand-fonts.css` loads self-hosted font files. `style.css` retains the exploration layouts; `finish.css` standardizes the main customer-facing pages. Supplied logo files are unchanged SVG vector artwork. Photographs are optimized WebP files; a restrained CSS treatment brings their saturation/contrast closer together without fabricating detail. Small source images are not artificially enlarged. Source records are in `PHOTO-CREDITS.md`.
 
-## Inquiry draft
+## Inquiry form
 
-`contact.html` prepares an inquiry locally with accessible validation, service preselection, review, copy, and text-file download. It opens a mailto draft only when the visitor chooses Open email app. Visitors must send from their email client. No inbox integration, database, or automatic form submission is configured. No form fields are written to local storage or sent to the server.
+`contact.html` validates the inquiry in the browser, then posts it to `/api/inquiry`. The Worker (`scripts/worker-template.js`) checks the fields, drops submissions that fill the hidden `website` field, formats times as 12 hour AM/PM and numeric budgets with a dollar sign, and submits the answers to the Microsoft Form "Southern Crescent Hospitality — Event Inquiry". The Power Automate flow "Southern Crescent Event Inquiry Alerts" then emails hello@southerncrescenthospitality.com and sends the client a thank you. If sending fails, the page falls back to the email draft (open in email app, copy, or download).
+
+The Worker maps site fields to Microsoft Forms question IDs in `QUESTION_IDS`. If a question in the Microsoft Form is deleted and recreated, update its ID there and in the flow's email body.
 
 ## QA
 
@@ -20,13 +22,13 @@ Use the existing checkout. Cloud tasks are already isolated; do not create a wor
 
 ## Deploy
 
-Run `python3 scripts/deploy-preview.py` with securely injected `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. It updates only the southern-crescent-brown Worker. Static files use a Cloudflare-supported binary data module, preserving each asset byte-for-byte. It does not touch the existing green or olive Workers.
+Pushing to `main` deploys automatically through `.github/workflows/deploy.yml`, which runs `python3 scripts/deploy-preview.py` with the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets. You can also run the workflow manually from the Actions tab. It updates only the southern-crescent-brown Worker. Static files use a Cloudflare-supported binary data module, preserving each asset byte-for-byte. It does not touch the existing green or olive Workers.
 
 ## Published website
 
 https://southerncrescenthospitality.com/
 
-The deployment script publishes to Cloudflare. Pushing to GitHub saves the source; it does not automatically trigger deployment. Microsoft Forms and Power Automate integration is pending the public form link and account configuration; see `MICROSOFT-FORMS-SETUP.md`.
+Pushing to `main` saves the source and triggers the deploy workflow.
 
 ## Google Analytics
 
