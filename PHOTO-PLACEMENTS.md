@@ -46,3 +46,7 @@
 | Assorted danishes.jpg | assets/latest-c01.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
 | Bacon, Egg & Cheese English Muffin.jpg | assets/latest-c02.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
 | Mini Crab & Prawn Slider.jpg | assets/latest-c03.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
+
+
+## Final editorial refinement
+Removed the soft corporate reception photograph (client-event-05.webp, previous board photo 7) and the cluttered shared-lunch photograph (shared-lunch-spread.webp, previous board photo 13). The corporate feature now uses the clean shared catering trays; the Delivered Meals and Event Planning layouts omit the weaker photograph. Final customer-facing collection: 24 distinct photos.

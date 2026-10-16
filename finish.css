@@ -28,3 +28,5 @@ html{scroll-padding-top:112px}body{font-family:'DM Sans',Arial,sans-serif;font-s
 
 /* Approved unbranded photo collection */
 .approved-photo-gallery{padding-top:38px;padding-bottom:56px}.approved-photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:26px}.approved-photo-grid figure{margin:0;min-width:0}.approved-photo-grid img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f6f4f1}.approved-photo-grid figcaption{padding-top:14px;font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:1.35}.approved-photo-gallery .eyebrow{margin-bottom:24px}
+
+.approved-photo-gallery-single .approved-photo-grid{grid-template-columns:minmax(0,736px)}
