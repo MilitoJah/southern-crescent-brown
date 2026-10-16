@@ -1,0 +1,32 @@
+[
+  {
+    "id": "C01",
+    "file": "Assorted danishes.jpg",
+    "width": 2160,
+    "height": 2160,
+    "asset": "assets/latest-c01.webp",
+    "earlier": "B02",
+    "title": "Assorted danishes",
+    "note": "The new square layout adds a large white margin. Compare it with B02: the tighter earlier crop keeps the food larger in a website card."
+  },
+  {
+    "id": "C02",
+    "file": "Bacon, Egg & Cheese English Muffin.jpg",
+    "width": 2160,
+    "height": 2160,
+    "asset": "assets/latest-c02.webp",
+    "earlier": "B04",
+    "title": "Bacon, egg & cheese English muffins",
+    "note": "An alternate square composition. The extra canvas is useful for a designed social layout; B04 uses the image area more efficiently on the website."
+  },
+  {
+    "id": "C03",
+    "file": "Mini Crab & Prawn Slider.jpg",
+    "width": 2160,
+    "height": 2160,
+    "asset": "assets/latest-c03.webp",
+    "earlier": "B10",
+    "title": "Mini crab & prawn sliders",
+    "note": "An alternate square composition with more white space. Keep the seafood naming precise; use the tighter B10 for a small menu card."
+  }
+]
