@@ -42,3 +42,7 @@ The review checks subject relevance, source dimensions, consistent frame orienta
 ## Verification
 
 Source, asset, alt-text, image-dimension, link, and ordering checks are required before publication. Browser-rendered desktop/mobile verification is not yet available in this session. The design choices above are reasoned judgments, not an objective guarantee that no stronger future photograph exists.
+
+
+## Homepage service-row correction
+User screenshots exposed a remaining camera-angle mismatch and a small branded jar in the outdoor long-board photograph. The homepage service cards now use a coherent overhead series: wrap-platter.webp, danishes-plain-liner.webp, and cheese-charcuterie-box.webp. All use 4:3 landscape frames. The dedicated Grazing hero retains editorial-c1.webp. The former outdoor long-board and fruit/pastry close-up are no longer used in the homepage row.

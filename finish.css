@@ -63,3 +63,8 @@ html{scroll-padding-top:112px}body{font-family:'DM Sans',Arial,sans-serif;font-s
 .menus-page .sample-menu>summary h3{margin:0;line-height:1.35}
 .menus-page .sample-menu,.menus-page .sample-menu:last-child{border-color:var(--line)}
 @media(max-width:600px){.menus-page .menu-format-grid{grid-template-columns:1fr;gap:30px}.menu-direction-image,.delivered-pair-photo,.approved-photo-grid img{aspect-ratio:4/3}.menus-page .sample-menu>summary{gap:12px}.menus-page .sample-menu>summary h3{font-size:24px}}
+
+/* Homepage service triptych: matching overhead photography and landscape frames. */
+#services .cards .card-image{height:auto;aspect-ratio:4/3;overflow:hidden}
+#services .cards .card-image>img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+@media(min-width:1025px){#services .cards .service-card h3{min-height:2.64em}}
