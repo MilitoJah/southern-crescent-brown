@@ -1,7 +1,7 @@
 import os,json,pathlib,urllib.request,urllib.error,uuid,base64,gzip
 root=pathlib.Path(__file__).resolve().parent.parent
 files={}
-for path,mime in [('index.html','text/html; charset=utf-8'),('coming-soon.html','text/html; charset=utf-8'),('contact.html','text/html; charset=utf-8'),('more-meeting-photo-options.html','text/html; charset=utf-8'),('editorial-station-options.html','text/html; charset=utf-8'),('food-first-photo-options.html','text/html; charset=utf-8'),('meeting-photo-options.html','text/html; charset=utf-8'),('photo-directions.html','text/html; charset=utf-8'),('style.css','text/css; charset=utf-8'),('app.js','application/javascript; charset=utf-8'),('assets/table.svg','image/svg+xml')]:
+for path,mime in [('index.html','text/html; charset=utf-8'),('coming-soon.html','text/html; charset=utf-8'),('full-website-preview.html','text/html; charset=utf-8'),('contact.html','text/html; charset=utf-8'),('more-meeting-photo-options.html','text/html; charset=utf-8'),('editorial-station-options.html','text/html; charset=utf-8'),('food-first-photo-options.html','text/html; charset=utf-8'),('meeting-photo-options.html','text/html; charset=utf-8'),('photo-directions.html','text/html; charset=utf-8'),('style.css','text/css; charset=utf-8'),('app.js','application/javascript; charset=utf-8'),('assets/table.svg','image/svg+xml')]:
  files['/'+path]={'body':(root/path).read_text(),'type':mime}
 for slug in ['corporate-catering', 'meeting-catering', 'drop-off-catering', 'catering-menus', 'bar-and-beverage', 'hospitality-professionals', 'careers']:
  files['/'+slug+'.html']={'body':(root/(slug+'.html')).read_text(),'type':'text/html; charset=utf-8'}
