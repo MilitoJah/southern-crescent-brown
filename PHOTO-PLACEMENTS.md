@@ -50,3 +50,7 @@
 
 ## Final editorial refinement
 Removed the soft corporate reception photograph (client-event-05.webp, previous board photo 7) and the cluttered shared-lunch photograph (shared-lunch-spread.webp, previous board photo 13). The corporate feature now uses the clean shared catering trays; the Delivered Meals and Event Planning layouts omit the weaker photograph. Final customer-facing collection: 24 distinct photos.
+
+
+## Editorial layout refinement
+Menus now leads with the shared catering trays and a deliberate three-line headline. The editorial grazing photograph replaces the redundant antipasto-box gallery card on Grazing. Added galleries precede closing calls to action. Menus and Delivered Meals show the complete wide tray photograph, rather than clipping its ends. Page sharing images follow their respective lead photographs.
