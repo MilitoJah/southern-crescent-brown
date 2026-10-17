@@ -1,56 +1,44 @@
-# Southern Crescent Hospitality — Full Photo Review
+# Southern Crescent Hospitality — Final Photo and Composition Review
 
-40 supplied image versions reviewed: 33 distinct photographs and seven alternate crops.
+Reviewed all 12 customer-facing pages. 22 unique photographs remain.
 
-13 distinct supplied photos are represented in the website update, including the edited plain-liner danishes. Remaining versions are accounted for below. Images illustrate formats and service; captions do not establish ingredients or claim these are Southern Crescent past events.
+The review checks subject relevance, source dimensions, consistent frame orientation within rows, focal points, repetition, and visible branding. Original food photographs are not rotated or mirrored. Portrait photographs remain only where the layout calls for a tall service/story panel; card and gallery rows use consistent landscape frames.
 
-| Supplied file | Review asset | Decision | Placement / reason |
+## Corrections
+
+- Replaced the narrow Grazing hero with the stronger landscape editorial charcuterie image. Removed its duplicate gallery instance and the weaker station image from active pages.
+- Standardized gallery and menu-card frames at 4:3 with deliberate focal points.
+- Corrected the Menus format cards into a consistent two-by-two grid; aligned brass rules and bottom links.
+- Standardized menu accordion rules and disclosure indicators.
+- Preserved the complete wide tray photographs in Menus and Delivered Meals leads.
+
+## Every selected photograph
+
+| Asset | Page(s) | Source size | Design decision |
 |---|---|---|---|
-| Assortment sandwiches.jpg | assets/new-01.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Bartender.png | assets/new-02.webp | Used — no visible third-party branding observed | hospitality-professionals |
-| Breakfast Sliders.jpg | assets/new-03.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Charcuterie.jpeg | assets/new-04.webp | Not selected — resolution or composition | Retained as backup |
-| Cheese & Charcuterie Platter.jpg | assets/new-05.webp | Used — no visible third-party branding observed | charcuterie-grazing |
-| Cocktail Spinach & Ricotta Filo Pastry Platter.jpg | assets/new-06.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Croissant Platter.jpg | assets/new-07.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Deluxe Breakfast Platter.jpg | assets/new-08.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Grazing Platter.jpg | assets/new-09.webp | Used — no visible third-party branding observed | charcuterie-grazing |
-| Hot Breakfast.jpeg | assets/new-10.webp | Not selected — resolution or composition | Retained as backup |
-| Italian Antipasto Platter.jpg | assets/new-11.webp | Used — no visible third-party branding observed | charcuterie-grazing |
-| Lunch..jpeg | assets/new-12.webp | Used — no visible third-party branding observed | event-planning |
-| Lunch.jpeg | assets/new-13.webp | Used — no visible third-party branding observed | drop-off-catering; event-planning |
-| Mediterranean Chicken Salad Platter.jpg | assets/new-14.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Pancake Platter.jpg | assets/new-15.webp | Used — no visible third-party branding observed | meeting-catering, catering-menus |
-| Personal Sandwich.jpg | assets/new-16.webp | Used — no visible third-party branding observed | drop-off-catering; drop-off-catering |
-| Pomelo_Cocktail.jpeg | assets/new-17.webp | Used — no visible third-party branding observed | bar-and-beverage hero |
-| Sandwiches.jpg | assets/new-18.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Seasonal Fruit Platter.jpeg | assets/new-19.webp | Used — no visible third-party branding observed | meeting-catering, catering-menus |
-| Seasonal Fruit Platter.png | assets/new-20.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| Wraps Platter.jpg | assets/new-21.webp | Used — no visible third-party branding observed | drop-off-catering; drop-off-catering, catering-menus |
-| 4 boxed lunch.jpg | assets/box-01.webp | Used — no visible branding observed | Homepage service card; Delivered Meals hero |
-| Assorted danishes.jpg | assets/box-02.webp | Used edited version — plain liner | Menus breakfast feature |
-| Assorted muffins.jpg | assets/box-03.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Bacon, Egg & Cheese English Muffin.jpeg | assets/box-04.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Caprese Slider.jpg | assets/box-05.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Cesar Salad.jpg | assets/box-06.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Chicken, bacon, lettuce, fried egg & Caesar dressing.jpg | assets/box-07.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Kofta.jpeg | assets/box-08.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Lamb Meatballs.jpeg | assets/box-09.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Mini Crab & Prawn Slider.jpg | assets/box-10.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| Pulled Pork Slider.jpg | assets/box-11.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| banana & chocolate bread served with whipped walnut butter.jpg | assets/box-12.webp | Excluded — visible or uncertain packaging branding | Do not publish this version |
-| 1.jpg | assets/food-d01.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| 2.jpg | assets/food-d02.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| 3.jpg | assets/food-d03.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| 4.jpg | assets/food-d04.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| Assorted danishes.jpg | assets/latest-c01.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| Bacon, Egg & Cheese English Muffin.jpg | assets/latest-c02.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
-| Mini Crab & Prawn Slider.jpg | assets/latest-c03.webp | Alternate composition — not duplicated | Retained as backup; branding check required before use |
+| assets/boxed-lunch-selection.webp | index, corporate-catering, drop-off-catering, catering-menus | 2000 × 1124 | Keep: broad food variety and clean packaging; full-width tray composition is preserved in page leads. |
+| assets/charcuterie-long-board.webp | index | 1050 × 1400 | Keep: abundant grazing presentation; portrait source is deliberately framed as a homepage service card. |
+| assets/client-photo-05.webp | index | 1600 × 1600 | Keep: sharp fruit and pastries; wide SVG viewport excludes padded borders. |
+| assets/client-photo-11.webp | index | 1600 × 1600 | Keep: clear breakfast service context; existing wide SVG viewport removes padded borders. |
+| assets/meeting-breakfast.webp | index | 1072 × 1600 | Keep: human service context; portrait supports the tall story panel. |
+| assets/corporate-catering-event.webp | corporate-catering | 1536 × 1024 | Keep: strongest wide image combining food and people for corporate catering. |
+| assets/lunch-grazing.webp | meeting-catering | 736 × 981 | Keep: a real shared table with a varied meeting spread; intentional service-hero crop. |
+| assets/pancake-breakfast.webp | meeting-catering, catering-menus | 768 × 566 | Keep: clear breakfast format; landscape gallery frame. |
+| assets/seasonal-fruit.webp | meeting-catering, catering-menus | 1100 × 1100 | Keep: color and fresh accompaniments; center crop keeps the fruit prominent. |
+| assets/individual-sandwich-meal.webp | drop-off-catering | 1400 × 1400 | Keep: the only selected photograph explicitly showing an individual packed meal. |
+| assets/wrap-platter.webp | drop-off-catering, catering-menus | 768 × 566 | Keep: visually distinct lunch format; landscape frame aligns with other lunch images. |
+| assets/cheese-charcuterie-box.webp | charcuterie-grazing | 1024 × 794 | Keep: compact grazing format; landscape frame matches the neighboring box. |
+| assets/editorial-c1.webp | charcuterie-grazing | 1440 × 960 | Move to Grazing hero: higher-resolution landscape composition fits the service and hero frame. |
+| assets/grazing-box.webp | charcuterie-grazing | 1024 × 801 | Keep: complementary grazing selection; same frame size and orientation as its neighbor. |
+| assets/bartender-service.webp | bar-and-beverage, hospitality-professionals | 1400 × 1400 | Keep: clear hands-on service; lower focal point protects the hands in landscape gallery crops. |
+| assets/cocktail-service.webp | bar-and-beverage | 1400 × 1400 | Keep: focused service moment for beverage hero; crop favors glass and pouring action. |
+| assets/client-event-08.webp | event-planning | 1600 × 1067 | Keep: clean conference setting establishes event-planning context. |
+| assets/reception-spread.webp | event-planning | 736 × 491 | Keep: warmer reception context complements the conference setting; consistent landscape gallery frame. |
+| assets/hospitality-service.webp | hospitality-professionals | 750 × 500 | Keep: human service scene matches the staffing offer. |
+| assets/danishes-plain-liner.webp | catering-menus | 1536 × 1024 | Keep: approved unbranded version; landscape breakfast frame. |
+| assets/sandwich-platters.webp | catering-menus | 1600 × 1068 | Keep: a direct menu-format illustration with strong texture and clear food detail. |
+| assets/event-planning.webp | careers | 750 × 500 | Keep: registration activity is relevant to the Careers page. |
 
+## Verification
 
-## Final editorial refinement
-Removed the soft corporate reception photograph (client-event-05.webp, previous board photo 7) and the cluttered shared-lunch photograph (shared-lunch-spread.webp, previous board photo 13). The corporate feature now uses the clean shared catering trays; the Delivered Meals and Event Planning layouts omit the weaker photograph. Final customer-facing collection: 24 distinct photos.
-
-
-## Editorial layout refinement
-Menus now leads with the shared catering trays and a deliberate three-line headline. The editorial grazing photograph replaces the redundant antipasto-box gallery card on Grazing. Added galleries precede closing calls to action. Menus and Delivered Meals show the complete wide tray photograph, rather than clipping its ends. Page sharing images follow their respective lead photographs.
+Source, asset, alt-text, image-dimension, link, and ordering checks are required before publication. Browser-rendered desktop/mobile verification is not yet available in this session. The design choices above are reasoned judgments, not an objective guarantee that no stronger future photograph exists.

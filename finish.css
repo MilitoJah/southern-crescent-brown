@@ -42,3 +42,24 @@ html{scroll-padding-top:112px}body{font-family:'DM Sans',Arial,sans-serif;font-s
 .approved-photo-gallery .eyebrow{margin-bottom:12px}
 @media(min-width:1025px){.delivered-pair-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.menus-hero h1{font-size:43px}.menus-hero .service-hero-media,.delivered-hero-photo{height:auto;min-height:0;padding:16px}.menus-page .service-overview{padding-top:34px;padding-bottom:34px}.approved-photo-gallery h2{margin-bottom:24px}}
+
+/* Final photo and menu composition: shared landscape frames and consistent rules. */
+.approved-photo-grid{align-items:start}
+.approved-photo-grid figure{display:grid;grid-template-rows:auto 1fr;align-content:start}
+.approved-photo-grid img{height:auto;width:100%;aspect-ratio:4/3;object-fit:cover}
+.approved-photo-grid figcaption{margin:0;padding-top:14px}
+.menu-direction-image,.delivered-pair-photo{height:auto;aspect-ratio:4/3}
+.menu-direction-image>img,.delivered-pair-photo>img{height:100%;width:100%;object-fit:cover}
+.menus-page .menu-format-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px;row-gap:36px;align-items:stretch}
+.menus-page .menu-format-grid>article,.menus-page .menu-format-grid>article:nth-child(4){display:flex;flex-direction:column;align-items:flex-start;grid-column:auto;gap:0;border-top:1px solid var(--gold);padding:24px 0 0}
+.menus-page .menu-format-grid>article h3,.menus-page .menu-format-grid>article:nth-child(4) h3{margin:18px 0 14px;font-size:27px;line-height:1.3}
+.menus-page .menu-format-grid>article p,.menus-page .menu-format-grid>article:nth-child(4) p{margin:0 0 16px}
+.menus-page .menu-format-grid>article>.text-link{margin-top:auto}
+.menus-page .sample-menus{border-bottom:0}
+.menus-page .sample-menu>summary{display:flex;align-items:center;gap:18px;list-style:none}
+.menus-page .sample-menu>summary::-webkit-details-marker{display:none}
+.menus-page .sample-menu>summary::after{content:'+';margin-left:auto;flex:0 0 auto;font:400 26px/1 'DM Sans',Arial,sans-serif;color:var(--muted)}
+.menus-page .sample-menu[open]>summary::after{content:'−'}
+.menus-page .sample-menu>summary h3{margin:0;line-height:1.35}
+.menus-page .sample-menu,.menus-page .sample-menu:last-child{border-color:var(--line)}
+@media(max-width:600px){.menus-page .menu-format-grid{grid-template-columns:1fr;gap:30px}.menu-direction-image,.delivered-pair-photo,.approved-photo-grid img{aspect-ratio:4/3}.menus-page .sample-menu>summary{gap:12px}.menus-page .sample-menu>summary h3{font-size:24px}}
